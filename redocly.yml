@@ -3,33 +3,6 @@ apis:
     path: ./apis/activationcode-api.yaml
   association:
     path: ./apis/association-api.yaml
-  catalogue:
-    path: ./apis/catalogue-api.yaml
-  consent:
-    path: ./apis/consent-api.yaml
-  course:
-    path: ./apis/course-api.yaml
-  delivery:
-    path: ./apis/delivery-api.yaml
-  dpa:
-    path: ./apis/dpa-api.yaml
-  education:
-    path: ./apis/education-api.yaml
-  employees:
-    path: ./apis/employees-api.yaml
-  entitlement:
-    path: ./apis/entitlement-api.yaml
-  notifications:
-    path: ./apis/notifications-api.yaml
-  order:
-    path: ./apis/order-api.yaml
-  progress:
-    path: ./apis/progress-api.yaml
-  results:
-    path: ./apis/results-api.yaml
-  students:
-    path: ./apis/students-api.yaml
-  usage:
-    path: ./apis/usage-api.yaml
-
-output: public
+  
+output:
+  path: ./public
