@@ -8,7 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: npm install -g @redocly/cli
-      - run: redocly build-docs
+      - run: redocly join ./apis/*.yaml -o openapi-combined.yaml
+      - run: redocly build-docs openapi-combined.yaml -o public/index.html      
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
