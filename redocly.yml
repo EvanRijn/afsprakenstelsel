@@ -1,35 +1,35 @@
 apis:
-  - name: activationcode
+  activationcode:
     root: ./apis/activationcode-api.yaml
-  - name: association
+  association:
     root: ./apis/association-api.yaml
-  - name: catalogue
+  catalogue:
     root: ./apis/catalogue-api.yaml
-  - name: consent
+  consent:
     root: ./apis/consent-api.yaml
-  - name: course
+  course:
     root: ./apis/course-api.yaml
-  - name: delivery
+  delivery:
     root: ./apis/delivery-api.yaml
-  - name: dpa
+  dpa:
     root: ./apis/dpa-api.yaml
-  - name: education
+  education:
     root: ./apis/education-api.yaml
-  - name: employees
+  employees:
     root: ./apis/employees-api.yaml
-  - name: entitlement
+  entitlement:
     root: ./apis/entitlement-api.yaml
-  - name: notifications
+  notifications:
     root: ./apis/notifications-api.yaml
-  - name: order
+  order:
     root: ./apis/order-api.yaml
-  - name: progress
+  progress:
     root: ./apis/progress-api.yaml
-  - name: results
+  results:
     root: ./apis/results-api.yaml
-  - name: students
+  students:
     root: ./apis/students-api.yaml
-  - name: usage
+  usage:
     root: ./apis/usage-api.yaml
 
 output:
