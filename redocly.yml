@@ -1,36 +1,36 @@
 apis:
   - name: activationcode
-    path: ./apis/activationcode-api.yaml
+    root: ./apis/activationcode-api.yaml
   - name: association
-    path: ./apis/association-api.yaml
+    root: ./apis/association-api.yaml
   - name: catalogue
-    path: ./apis/catalogue-api.yaml
+    root: ./apis/catalogue-api.yaml
   - name: consent
-    path: ./apis/consent-api.yaml
+    root: ./apis/consent-api.yaml
   - name: course
-    path: ./apis/course-api.yaml
+    root: ./apis/course-api.yaml
   - name: delivery
-    path: ./apis/delivery-api.yaml
+    root: ./apis/delivery-api.yaml
   - name: dpa
-    path: ./apis/dpa-api.yaml
+    root: ./apis/dpa-api.yaml
   - name: education
-    path: ./apis/education-api.yaml
+    root: ./apis/education-api.yaml
   - name: employees
-    path: ./apis/employees-api.yaml
+    root: ./apis/employees-api.yaml
   - name: entitlement
-    path: ./apis/entitlement-api.yaml
+    root: ./apis/entitlement-api.yaml
   - name: notifications
-    path: ./apis/notifications-api.yaml
+    root: ./apis/notifications-api.yaml
   - name: order
-    path: ./apis/order-api.yaml
+    root: ./apis/order-api.yaml
   - name: progress
-    path: ./apis/progress-api.yaml
+    root: ./apis/progress-api.yaml
   - name: results
-    path: ./apis/results-api.yaml
+    root: ./apis/results-api.yaml
   - name: students
-    path: ./apis/students-api.yaml
+    root: ./apis/students-api.yaml
   - name: usage
-    path: ./apis/usage-api.yaml
+    root: ./apis/usage-api.yaml
 
 output:
   path: ./public
