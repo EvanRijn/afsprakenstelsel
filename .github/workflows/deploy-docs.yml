@@ -8,7 +8,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: npm install -g @redocly/cli
-      - run: redocly build-docs
+      
+      - run: |
+          mkdir -p public
+          for file in apis/*.yaml; do
+            name=$(basename "$file" .yaml)
+            redocly build-docs "$file" -o "public/${name}.html"
+          done
+      
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
