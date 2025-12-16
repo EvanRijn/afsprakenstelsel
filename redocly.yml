@@ -1,8 +1,36 @@
 apis:
-  activationcode:
+  - name: activationcode
     path: ./apis/activationcode-api.yaml
-  association:
+  - name: association
     path: ./apis/association-api.yaml
-  
+  - name: catalogue
+    path: ./apis/catalogue-api.yaml
+  - name: consent
+    path: ./apis/consent-api.yaml
+  - name: course
+    path: ./apis/course-api.yaml
+  - name: delivery
+    path: ./apis/delivery-api.yaml
+  - name: dpa
+    path: ./apis/dpa-api.yaml
+  - name: education
+    path: ./apis/education-api.yaml
+  - name: employees
+    path: ./apis/employees-api.yaml
+  - name: entitlement
+    path: ./apis/entitlement-api.yaml
+  - name: notifications
+    path: ./apis/notifications-api.yaml
+  - name: order
+    path: ./apis/order-api.yaml
+  - name: progress
+    path: ./apis/progress-api.yaml
+  - name: results
+    path: ./apis/results-api.yaml
+  - name: students
+    path: ./apis/students-api.yaml
+  - name: usage
+    path: ./apis/usage-api.yaml
+
 output:
   path: ./public
